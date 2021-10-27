@@ -35,10 +35,12 @@
       <artifactId>hadoop-common</artifactId>
       <version>2.10.1</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client -->
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-mapreduce-client</artifactId>
       <version>2.10.1</version>
+      <type>pom</type>
     </dependency>
   </dependencies>
 
@@ -51,6 +53,7 @@
             <archive>
               <manifest>
                 <mainClass>hadoop.WordCount.WordCount</mainClass>
+                <mainClass>hadoop.AirlineData.DepartureDelayCount</mainClass>
               </manifest>
             </archive>
           </configuration>
