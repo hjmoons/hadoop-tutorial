@@ -1,4 +1,4 @@
-package hadoop;
+package hadoop.WordCount;
 
 import java.io.IOException;
 
